@@ -1,0 +1,15 @@
+/* This file now only contains media queries for respecting user preferences */
+/* The animations have been moved to Tailwind config */
+
+/* Ensure animations respect user preferences */
+@media (prefers-reduced-motion: reduce) {
+  .animate-progress,
+  .animate-pulse-slow,
+  .animate-float,
+  .animate-ripple,
+  .animate-glow,
+  .animate-scan-rotate,
+  .animate-scan-pulse {
+    animation-duration: calc(var(--animation-speed-factor, 1) * 3s);
+  }
+} 
