@@ -103,7 +103,7 @@ export const QuickStats = () => {
               <span className="text-sm text-gray-300">Accuracy</span>
             </div>
             <p className="text-2xl font-medium mt-2 text-white tracking-tight relative">
-              94.8%
+              87.8%
             </p>
           </Card>
         </motion.div>
